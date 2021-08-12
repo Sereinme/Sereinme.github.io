@@ -21,6 +21,29 @@ const ap = new APlayer({
             lrc: '', //音频歌词，配合上面的lrcType使用
             theme: '#000000' //切换到此音频时的主题色，比上面的 theme 优先级高
         },
-
+        {
+            name: '40oz', //音频名称
+            artist: 'Polyphia', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=559735797.mp3', //音频外链
+            cover: 'http://p2.music.126.net/jNChO-ndetFG2dIDx3Q4hQ==/109951164937591463.jpg', //音频封面
+            lrc: '', //音频歌词，配合上面的lrcType使用
+            theme: '#000000' //切换到此音频时的主题色，比上面的 theme 优先级高
+        },
+        {
+            name: 'James Franco', //音频名称
+            artist: 'Polyphia', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=28983126.mp3', //音频外链
+            cover: 'http://p1.music.126.net/rQBpxMuN-Fp-zGfSHSWnFQ==/109951165097812914.jpg', //音频封面
+            lrc: '', //音频歌词，配合上面的lrcType使用
+            theme: '#000000' //切换到此音频时的主题色，比上面的 theme 优先级高
+        },
+        {
+            name: 'G.O.A.T.', //音频名称
+            artist: 'Polyphia', //音频艺术家
+            url: 'http://music.163.com/song/media/outer/url?id=570010342.mp3', //音频外链
+            cover: 'http://p2.music.126.net/DePoY1cYbvs9vNpLDq-Ytg==/109951163451528316.jpg', //音频封面
+            lrc: '', //音频歌词，配合上面的lrcType使用
+            theme: '#000000' //切换到此音频时的主题色，比上面的 theme 优先级高
+        },
     ]
 });
