@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>My First Post</title>
+    <url>/2021/08/10/My-First-Post/</url>
+    <content><![CDATA[<p>Hi!</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Welcome！</title>
+    <url>/2021/08/12/Welcome/</url>
+    <content><![CDATA[<p>欢迎来到<a href="https://sereinme.githua.io/">Sereinme</a>的博客！在这里我将分享关于我都学习和生活的故事，期待你的关注。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/08/10/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客部署</title>
+    <url>/2021/08/11/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<p>我于2021年夏天开始搭建这个博客，这篇博文主要记录了我搭建过程中的步骤和遇到的问题及解决方法。</p>
+<span id="more"></span>
+<h1 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h1><p>此站点是基于<a href="https://github.com/Sereinme/Sereinme.github.io/deployments/activity_log?environment=github-pages">Github Pages</a>服务和<a href="https://hexo.io/">Hexo</a>静态网页搭建而成，所用的主题为<a href="https://theme-next.js.org/">NexT</a>。</p>
+<h1 id="Hexo博客建立"><a href="#Hexo博客建立" class="headerlink" title="Hexo博客建立"></a>Hexo博客建立</h1><h2 id="Hexo建立与初始化"><a href="#Hexo建立与初始化" class="headerlink" title="Hexo建立与初始化"></a>Hexo建立与初始化</h2><h2 id="Git推至远端"><a href="#Git推至远端" class="headerlink" title="Git推至远端"></a>Git推至远端</h2><h1 id="NexT主题优化"><a href="#NexT主题优化" class="headerlink" title="NexT主题优化"></a>NexT主题优化</h1><h1 id="APlayer音乐播放器"><a href="#APlayer音乐播放器" class="headerlink" title="APlayer音乐播放器"></a>APlayer音乐播放器</h1><p>我将部署代码放在next/layout/_layout.njk中，并设置<code>mini: true</code>。部署代码如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Git</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>电动力学期末点评</title>
+    <url>/2021/08/12/%E7%94%B5%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%9F%E6%9C%ABref/</url>
+    <content><![CDATA[<p>2021春《电动力学》期末试题点评</p>
+<span id="more"></span>
+<h1 id="简答题"><a href="#简答题" class="headerlink" title="简答题"></a>简答题</h1><div class="note success no-icon"><p>今年简答题均为往年考过的题目，没有什么需要特别说明的。</p>
+</div>
+
+
+<h1 id="计算题"><a href="#计算题" class="headerlink" title="计算题"></a>计算题</h1><div class="note info no-icon"><h2 id="第一题"><a href="#第一题" class="headerlink" title="第一题"></a>第一题</h2><p>关于圆偏振波在介质界面反射后的偏振状态，可以将圆偏振波分解为N波和P波的叠加，再根据N波和P波电场反射系数的模值和相位随入射角的变化得到结果。除了特殊入射角的情况，反射波一般是椭圆偏振波，其旋向可能因入射角度的不同而发生变化。</p>
+<p>我们在课上讲过，线偏振的N波和P波经介质界面反射/折射后，反射/折射波仍为N波和P波。在光学中，称线偏振的N波/P波为介质界面的本征偏振态，即经过该光学系统，电磁波的偏振状态不变。这也是为什么我们在分析介质界面反射/折射时，针对N波和P波进行讨论。其他的光学器件，也有各自的本征偏振态，分析其光学特性时，一般是将入射光分解为本征偏振态的叠加，再进行处理。例如，石英旋光晶片的偏振本征态是左旋/右旋圆偏振波。相关的内容，会在《物理光学》课程中进行介绍。</p>
+</div>
+
+<div class="note danger no-icon"><h2 id="第二题"><a href="#第二题" class="headerlink" title="第二题"></a>第二题</h2><p>本题讨论的是电磁波入射到有限厚度介质板表面时的反射与折射特性，其基本思想还是基于Fresnel公式进行分析。这道题曾经考过，当时只要求分析入射角为Brewster角和正入射的情况。此次加大了难度，讨论了一般斜入射的情况，但除了计算繁琐一些外，分析的思路并没有变化。</p>
+<p>对于入射角为Brewster角的情况，并不需要复杂的计算，只需注意到此时P波的反射系数为零，且入射角$\theta _i$与折射角$\theta _t$之和为$\pi/2$，并容易确定在介质板下表面发生反射时，其入射角正是介质到真空的Brewster角，由此可以直接得到结论。</p>
+<p>对于非Brewster角入射的情况，应当考虑到入射空间中的反射波是电磁波在介质上下表面之间多次反射透射后相叠加的结果，属于多波束干涉。这实际上就是普通物理中讨论过的Fabry-Perot干涉仪。部分同学考虑了多次反射，但没有注意不同次数反射后的电磁波相位的差别，而这恰恰是多波束干涉的关键所在。<br>另外，在计算过程中，涉及真空到介质和介质到真空的反射率和透射率，它们之前满足所谓的Stokes倒易关系：设真空到介质的振幅反射率和振幅透射率分别为r和t，而介质到真空的反射率和透射率为 和 ，那么 和 。利用Fresnel公式，容易证明Stokes倒易关系。不用Fresnel公式，也可以利用光路可逆原理进行证明。感兴趣的同学可以参考赵凯华等编著的《光学》（上），（北京大学出版社）第10.3节的内容。</p>
+</div>
+
+<div class="note info no-icon"><h2 id="第三题"><a href="#第三题" class="headerlink" title="第三题"></a>第三题</h2><p>本题研究同轴传输线中的量传输和损耗。</p>
+<p>能够在同轴传输线中传输的各种电磁波模式中，最重要的是TEM波（称为同轴线的主模），其电场和磁场沿传播方向的分量均为零。题目给出了TEM波的电场形式，根据Faraday电磁感应定律即可得到磁场。在此过程中，需要进行旋度的计算，但基本上没有同学给出正确的计算过程。由于题目没有给出柱坐标下旋度的计算公式，可以利用直角坐标系下的旋度公式进行计算，这虽然不是最为简洁的方法，但优点在于是一个通行的解决方案。</p>
+<p>在计算有损同轴传输线的损耗时，还有部分同学没有掌握如何利用表面电阻的概念进行求解。好在微波课程中会反复应用这一概念，希望大家到时能够真正掌握。需要特别注意的是， 给出的是单位表面积上的电磁波损耗，计算单位长度同轴传输线的损耗时，要分别对内外导体表面积进行积分。而且，可能有同学在计算过程中注意到了，内外导体上的总面电流大小相等、方向相反。</p>
+<p>从计算结果来看，同轴传输线的损耗与内外导体半径之比b/a有关，而该参数与所谓的传输线特性阻抗密切相关。常用的视频电缆是特性阻抗为$75 \Omega$的同轴传输线，正好对应于损耗最低时的b/a。另外，大多数微波仪器（例如网络分析仪、频谱分析仪、微波信号源等）使用的同轴电缆的特性阻抗为$50 \Omega$，这是综合考虑了耐压、功率和损耗的结果，具体细节会在后续的微波课程中进行介绍。</p>
+</div>
+
+<div class="note warning no-icon"><h2 id="第四题"><a href="#第四题" class="headerlink" title="第四题"></a>第四题</h2><p>本题是教材第5章习题12的变形，只不过将电偶极子替换为磁偶极子，而且方向由平行改为垂直于理想导体表面。同学都知道可以采用镜像法求解，但还是有些同学将像磁偶极子的方向搞错了。我们在课上强调过，镜像法的关键是要求真实电荷电流分布与镜像电荷电流分布共同满足边界条件。而现在的边界是理想导体，也就是要求其表面的电场切向分量为零。请搞错镜像磁偶极子方向的同学根据这一要求再仔细分析一下。</p>
+<p>题目要求分别讨论$a &lt;&lt; \lambda$和 $a = \lambda$的情况，部分同学认为在前一种情况下，是准静态场，可以应用镜像法，而后一种情况下则不行。这种认识是错误的，因为在两种情况下，我们都是在讨论辐射场。镜像法是求解边值问题的一种手段，并非只适用于静场。关于利用镜像法求解理想导体表面外任意方向的电偶极子或磁偶极子辐射的问题，可以参考Hermann A. Haus, James R. Melcher, Electromagnetic fields and energy, Englewood Cliffs, N.J.: Prentice Hall, 1989。<br>在计算辐射总功率时，不少同学没有注意到辐射场仅存在于上半空间，所以得出的结果差了一倍。</p>
+</div>]]></content>
+      <categories>
+        <category>Course</category>
+      </categories>
+      <tags>
+        <tag>Physics</tag>
+      </tags>
+  </entry>
+</search>
