@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Welcome！</title>
-    <url>/2021/08/12/Welcome/</url>
-    <content><![CDATA[<p>欢迎来到<a href="https://sereinme.githua.io/">Sereinme</a>的博客！在这里我将分享关于我都学习和生活的故事，期待你的关注。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>My First Post</title>
     <url>/2021/08/10/My-First-Post/</url>
     <content><![CDATA[<p>Hi!</p>
@@ -16,6 +10,46 @@
       </categories>
       <tags>
         <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Welcome！</title>
+    <url>/2021/08/12/Welcome/</url>
+    <content><![CDATA[<p>欢迎来到<a href="https://sereinme.githua.io/">Sereinme</a>的博客！在这里我将分享关于我都学习和生活的故事，期待你的关注。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/08/10/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<span id="more"></span>
+
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>博客部署</title>
+    <url>/2021/08/11/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<p>我于2021年夏天开始搭建这个博客，这篇博文主要记录了我搭建过程中的步骤和遇到的问题及解决方法。</p>
+<span id="more"></span>
+<h1 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h1><p>此站点是基于<a href="https://github.com/Sereinme/Sereinme.github.io/deployments/activity_log?environment=github-pages">Github Pages</a>服务和<a href="https://hexo.io/">Hexo</a>静态网页搭建而成，所用的主题为<a href="https://theme-next.js.org/">NexT</a>。</p>
+<h1 id="Hexo博客建立"><a href="#Hexo博客建立" class="headerlink" title="Hexo博客建立"></a>Hexo博客建立</h1><h2 id="Hexo建立与初始化"><a href="#Hexo建立与初始化" class="headerlink" title="Hexo建立与初始化"></a>Hexo建立与初始化</h2><h2 id="Git推至远端"><a href="#Git推至远端" class="headerlink" title="Git推至远端"></a>Git推至远端</h2><h1 id="NexT主题优化"><a href="#NexT主题优化" class="headerlink" title="NexT主题优化"></a>NexT主题优化</h1><h1 id="APlayer音乐播放器"><a href="#APlayer音乐播放器" class="headerlink" title="APlayer音乐播放器"></a>APlayer音乐播放器</h1><p>我将部署代码放在next/layout/_layout.njk中，并设置<code>mini: true</code>。部署代码如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Git</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -50,40 +84,6 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hello World</title>
-    <url>/2021/08/10/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<span id="more"></span>
-
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>博客部署</title>
-    <url>/2021/08/11/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</url>
-    <content><![CDATA[<p>我于2021年夏天开始搭建这个博客，这篇博文主要记录了我搭建过程中的步骤和遇到的问题及解决方法。</p>
-<span id="more"></span>
-<h1 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h1><p>此站点是基于<a href="https://github.com/Sereinme/Sereinme.github.io/deployments/activity_log?environment=github-pages">Github Pages</a>服务和<a href="https://hexo.io/">Hexo</a>静态网页搭建而成，所用的主题为<a href="https://theme-next.js.org/">NexT</a>。</p>
-<h1 id="Hexo博客建立"><a href="#Hexo博客建立" class="headerlink" title="Hexo博客建立"></a>Hexo博客建立</h1><h2 id="Hexo建立与初始化"><a href="#Hexo建立与初始化" class="headerlink" title="Hexo建立与初始化"></a>Hexo建立与初始化</h2><h2 id="Git推至远端"><a href="#Git推至远端" class="headerlink" title="Git推至远端"></a>Git推至远端</h2><h1 id="NexT主题优化"><a href="#NexT主题优化" class="headerlink" title="NexT主题优化"></a>NexT主题优化</h1><h1 id="APlayer音乐播放器"><a href="#APlayer音乐播放器" class="headerlink" title="APlayer音乐播放器"></a>APlayer音乐播放器</h1><p>我将部署代码放在next/layout/_layout.njk中，并设置<code>mini: true</code>。部署代码如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Git</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
