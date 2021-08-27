@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>My First Post</title>
+    <url>/2021/08/10/My-First-Post/</url>
+    <content><![CDATA[<p>Hi!</p>
+<span id="more"></span>]]></content>
+      <categories>
+        <category>Diary</category>
+      </categories>
+      <tags>
+        <tag>Games</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2021.8.27</title>
     <url>/2021/08/27/2021-8-27/</url>
     <content><![CDATA[<p><img data-src="/images/rainbow.png"></p>
@@ -12,18 +24,6 @@
       </categories>
       <tags>
         <tag>Life</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>My First Post</title>
-    <url>/2021/08/10/My-First-Post/</url>
-    <content><![CDATA[<p>Hi!</p>
-<span id="more"></span>]]></content>
-      <categories>
-        <category>Diary</category>
-      </categories>
-      <tags>
-        <tag>Games</tag>
       </tags>
   </entry>
   <entry>
