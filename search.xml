@@ -53,6 +53,20 @@
 ]]></content>
   </entry>
   <entry>
+    <title>博客部署</title>
+    <url>/2021/08/11/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</url>
+    <content><![CDATA[<p>我于2021年夏天开始搭建这个博客，这篇博文主要记录了我搭建过程中的步骤和遇到的问题及解决方法。</p>
+<span id="more"></span>
+<h1 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h1><p>此站点是基于<a href="https://github.com/Sereinme/Sereinme.github.io/deployments/activity_log?environment=github-pages">Github Pages</a>服务和<a href="https://hexo.io/">Hexo</a>静态网页搭建而成，所用的主题为<a href="https://theme-next.js.org/">NexT</a>。</p>
+<h1 id="Hexo博客建立"><a href="#Hexo博客建立" class="headerlink" title="Hexo博客建立"></a>Hexo博客建立</h1><h2 id="Hexo建立与初始化"><a href="#Hexo建立与初始化" class="headerlink" title="Hexo建立与初始化"></a>Hexo建立与初始化</h2><h2 id="Git推至远端"><a href="#Git推至远端" class="headerlink" title="Git推至远端"></a>Git推至远端</h2><h1 id="NexT主题优化"><a href="#NexT主题优化" class="headerlink" title="NexT主题优化"></a>NexT主题优化</h1><h1 id="APlayer音乐播放器"><a href="#APlayer音乐播放器" class="headerlink" title="APlayer音乐播放器"></a>APlayer音乐播放器</h1><p>我将部署代码放在next/layout/_layout.njk中，并设置<code>mini: true</code>。部署代码如下</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>Git</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>电动力学期末点评</title>
     <url>/2021/08/12/%E7%94%B5%E5%8A%A8%E5%8A%9B%E5%AD%A6%E6%9C%9F%E6%9C%ABref/</url>
     <content><![CDATA[<p>2021春《电动力学》期末试题点评</p>
@@ -84,20 +98,6 @@
       </categories>
       <tags>
         <tag>Physics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>博客部署</title>
-    <url>/2021/08/11/%E5%8D%9A%E5%AE%A2%E9%83%A8%E7%BD%B2/</url>
-    <content><![CDATA[<p>我于2021年夏天开始搭建这个博客，这篇博文主要记录了我搭建过程中的步骤和遇到的问题及解决方法。</p>
-<span id="more"></span>
-<h1 id="博客配置"><a href="#博客配置" class="headerlink" title="博客配置"></a>博客配置</h1><p>此站点是基于<a href="https://github.com/Sereinme/Sereinme.github.io/deployments/activity_log?environment=github-pages">Github Pages</a>服务和<a href="https://hexo.io/">Hexo</a>静态网页搭建而成，所用的主题为<a href="https://theme-next.js.org/">NexT</a>。</p>
-<h1 id="Hexo博客建立"><a href="#Hexo博客建立" class="headerlink" title="Hexo博客建立"></a>Hexo博客建立</h1><h2 id="Hexo建立与初始化"><a href="#Hexo建立与初始化" class="headerlink" title="Hexo建立与初始化"></a>Hexo建立与初始化</h2><h2 id="Git推至远端"><a href="#Git推至远端" class="headerlink" title="Git推至远端"></a>Git推至远端</h2><h1 id="NexT主题优化"><a href="#NexT主题优化" class="headerlink" title="NexT主题优化"></a>NexT主题优化</h1><h1 id="APlayer音乐播放器"><a href="#APlayer音乐播放器" class="headerlink" title="APlayer音乐播放器"></a>APlayer音乐播放器</h1><p>我将部署代码放在next/layout/_layout.njk中，并设置<code>mini: true</code>。部署代码如下</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/dist/APlayer.min.css&quot;&gt;</span><br><span class="line">&lt;div id=&quot;aplayer&quot;&gt;&lt;/div&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/APlayer.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/dist/music.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>Git</tag>
-        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
