@@ -4,6 +4,8 @@
     <title>2021.8.27</title>
     <url>/2021/08/27/2021-8-27/</url>
     <content><![CDATA[<p><img data-src="/images/rainbow.png"></p>
+<span id="more"></span>
+<p>国庆放三天调休两天，我吐了。</p>
 ]]></content>
       <categories>
         <category>Diary</category>
@@ -25,6 +27,12 @@
       </tags>
   </entry>
   <entry>
+    <title>Welcome！</title>
+    <url>/2021/08/12/Welcome/</url>
+    <content><![CDATA[<p>欢迎来到<a href="https://sereinme.githua.io/">Sereinme</a>的博客！在这里我将分享关于我都学习和生活的故事，期待你的关注。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/08/10/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -42,12 +50,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Welcome！</title>
-    <url>/2021/08/12/Welcome/</url>
-    <content><![CDATA[<p>欢迎来到<a href="https://sereinme.githua.io/">Sereinme</a>的博客！在这里我将分享关于我都学习和生活的故事，期待你的关注。</p>
 ]]></content>
   </entry>
   <entry>
